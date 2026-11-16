@@ -1,8 +1,8 @@
-"""Dashboard EPP | Versión corregida V4.
+"""Dashboard EPP | V5: inspecciones en Google Sheets con respaldo CSV.
 
-Datos: instantánea de tres hojas de Google Sheets ya procesadas por n8n.
-Las zonas históricas sin identificador NO se convierten en zona_1 / zona_2.
-La aplicación NO lee credenciales ni consulta una API en vivo.
+La hoja Inspecciones es la fuente primaria cuando se configura en Streamlit Secrets.
+Pronósticos y Transformer mantienen resultados de experimentos en CSV.
+No se infieren zonas inexistentes ni se ejecutan modelos en este tablero.
 """
 from datetime import datetime, timedelta
 from html import escape
@@ -13,12 +13,14 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from streamlit_gsheets import GSheetsConnection
+from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(page_title="Centro de control EPP", page_icon="🦺", layout="wide", initial_sidebar_state="expanded")
 BASE = Path(__file__).resolve().parent / "data"
 NAVY, BLUE, CYAN, AMBER, RED, MUTE = "#142943", "#2B66A2", "#14A4AC", "#D99B41", "#C45259", "#687789"
 PALETTE = {"Alta": RED, "Media": AMBER, "Baja": BLUE}
-VERSION = "V4 · TABLERO ACADÉMICO"
+VERSION = "V5 · INSPECCIONES DESDE GOOGLE SHEETS"
 # Fecha local de Chile: Streamlit Community Cloud puede estar configurado en UTC.
 HOY_CHILE = datetime.now(ZoneInfo("America/Santiago")).date()
 MANANA_CHILE = HOY_CHILE + timedelta(days=1)
@@ -63,11 +65,57 @@ h1,h2,h3 {color:#142943;letter-spacing:-.035em;}
 """, unsafe_allow_html=True)
 
 
+# Actualizar la página mientras está abierta. La consulta remota mantiene caché
+# corta para evitar solicitudes innecesarias a Google Sheets.
+st_autorefresh(interval=5 * 60 * 1000, key="actualizacion_inspecciones")
+
+
 @st.cache_data(show_spinner=False)
 def load_saved_data():
+    """Copia de seguridad histórica + resultados simulados de otros modelos."""
     return (pd.read_csv(BASE / "inspecciones.csv"),
             pd.read_csv(BASE / "pronosticos.csv"),
             pd.read_csv(BASE / "transformer.csv"))
+
+
+def has_gsheets_settings():
+    """La URL y, si procede, las credenciales van en Streamlit Secrets."""
+    try:
+        return bool(st.secrets.get("connections", {}).get("gsheets", {}).get("spreadsheet"))
+    except Exception:
+        return False
+
+
+def load_inspections(csv_backup):
+    """Lee directamente la primera pestaña (gid=0) de la hoja original de n8n.
+
+    En modo público se necesita acceso 'Cualquier persona con el enlace: Lector'.
+    En modo privado se usa una cuenta de servicio configurada en Secrets.
+    En ambos casos la aplicación solicita lectura solamente.
+    """
+    if not has_gsheets_settings():
+        return csv_backup.copy(), "CSV de respaldo", "Conexión aún no configurada en Streamlit Secrets."
+
+    try:
+        conn = st.connection("gsheets", type=GSheetsConnection)
+        # worksheet=0: primera hoja; coincide con la pestaña Inspecciones (gid=0)
+        # del documento que ya usa el flujo n8n.
+        datos = conn.read(worksheet=0, ttl=240)
+        if not isinstance(datos, pd.DataFrame):
+            raise ValueError("La lectura de Inspecciones no devolvió una tabla.")
+        necesarios = {"supervisor", "prioridad", "trabajadores_detectados",
+                      "requieren_revision", "recomendacion"}
+        if not necesarios.issubset(datos.columns):
+            raise ValueError("La hoja no contiene las columnas principales de Inspecciones.")
+        if not ({"fecha_inspeccion", "fecha_local_inspeccion", "fecha"} & set(datos.columns)):
+            raise ValueError("La hoja no contiene una fecha de inspección.")
+        return datos, "Google Sheets (directo)", ""
+    except Exception:
+        # No mostrar detalles internos de autenticación al público.
+        return csv_backup.copy(), "CSV de respaldo", (
+            "No se pudo consultar Google Sheets. Comprueba permisos, Secrets y "
+            "que la primera pestaña sea Inspecciones. Se mantiene la copia de respaldo."
+        )
 
 
 def zone_label(zone):
@@ -160,7 +208,8 @@ def kpi(label, number, detail, kind=""):
             f'<div class="detail">{escape(detail)}</div></div>')
 
 
-raw_i, raw_p, raw_t = load_saved_data()
+csv_i, raw_p, raw_t = load_saved_data()
+raw_i, fuente_inspecciones, error_fuente = load_inspections(csv_i)
 i = prep_inspections(raw_i)
 p = prep_forecasts(raw_p)
 t = prep_transformer(raw_t)
@@ -176,13 +225,24 @@ selected_people = st.sidebar.multiselect("Supervisor", people, default=people)
 
 if not i.empty:
     min_d, max_d = i["fecha"].min().date(), i["fecha"].max().date()
-    period = st.sidebar.date_input("Período",(min_d,max_d),min_value=min_d,max_value=max_d)
-    if isinstance(period,(tuple,list)) and len(period)==2:
-        date_a,date_b=period
+    # Si el usuario tenía seleccionado el último día disponible, incluir las
+    # nuevas fechas automáticamente sin perder otros filtros elegidos.
+    prev_max_d = st.session_state.get("_inspecciones_max_fecha")
+    if "periodo_inspecciones" not in st.session_state:
+        st.session_state["periodo_inspecciones"] = (min_d, max_d)
+    elif prev_max_d is not None and max_d > prev_max_d:
+        current = st.session_state["periodo_inspecciones"]
+        if isinstance(current, (tuple, list)) and len(current) == 2 and current[1] >= prev_max_d:
+            st.session_state["periodo_inspecciones"] = (current[0], max_d)
+    st.session_state["_inspecciones_max_fecha"] = max_d
+    period = st.sidebar.date_input("Período", min_value=min_d, max_value=max_d,
+                                   key="periodo_inspecciones")
+    if isinstance(period, (tuple, list)) and len(period) == 2:
+        date_a, date_b = period
     else:
-        date_a,date_b=min_d,max_d
+        date_a, date_b = min_d, max_d
 else:
-    date_a=date_b=HOY_CHILE
+    date_a = date_b = HOY_CHILE
 
 zone_options = ["Zona 1 · casco y chaleco", "Zona 2 · calzado, guantes y lentes", "Histórico sin zona homologada"]
 selected_zone = st.sidebar.multiselect("Zona",zone_options,default=zone_options)
@@ -193,18 +253,25 @@ subset = i[(i["supervisor"].isin(selected_people)) &
            (i["prioridad"].isin(selected_priority))].copy()
 
 st.sidebar.divider()
-st.sidebar.caption("Fuente: instantánea de Google Sheets. No se actualiza en tiempo real.")
-with st.sidebar.expander("Cómo actualizar los CSV"):
-    st.caption("El tablero usa copias de Google Sheets; no tiene carga de archivos desde la web.")
-    st.info("Reemplaza los CSV en la carpeta data/ del repositorio de GitHub y confirma los cambios para actualizar la app publicada.")
+st.sidebar.caption(f"Fuente de inspecciones: {fuente_inspecciones}.")
+if fuente_inspecciones == "Google Sheets (directo)":
+    st.sidebar.caption("Se consulta de nuevo automáticamente cada 5 minutos mientras el tablero esté abierto.")
+else:
+    st.sidebar.warning(error_fuente)
+if st.sidebar.button("Actualizar datos ahora", help="Vacía la caché para volver a consultar la hoja"):
+    st.cache_data.clear()
+    st.rerun()
+with st.sidebar.expander("Origen y actualización"):
+    st.caption("Inspecciones y recomendaciones Gemini: hoja Inspecciones de Google Sheets, si está conectada. Pronósticos y Transformer: resultados de prueba en CSV.")
+    st.info("Para habilitar la conexión, configura el enlace y los permisos en Streamlit Secrets. Si la conexión falla se usa el CSV de respaldo; ese respaldo puede contener registros antiguos.")
 
 st.markdown(f'''<div class="hero"><div class="eyebrow">SEGURIDAD INDUSTRIAL · SISTEMA DE APOYO A LA DECISIÓN</div>
 <h1>Centro de control de EPP</h1><div class="subtitle">Inspecciones con YOLO + recomendaciones de Gemini + planificación con LSTM / Holt-Winters + clasificación de reportes con Transformer.</div>
 <div class="version">{VERSION}</div></div>''',unsafe_allow_html=True)
 
 old = int((i["zona_id"]=="sin_homologar").sum())
-st.markdown(f'''<div class="notice"><strong>Registros disponibles en los CSV:</strong> {len(i)} inspecciones históricas · {len(p)} pronósticos · {len(t)} reportes Transformer. 
-Las <strong>{old} inspecciones antiguas sin ID de zona</strong> se muestran separadas: NO se asignan a Zona 1 ni Zona 2. 
+st.markdown(f'''<div class="notice"><strong>Fuente: {escape(fuente_inspecciones)}.</strong> {len(i)} inspecciones históricas · {len(p)} pronósticos · {len(t)} reportes Transformer. 
+Los <strong>{old} registros sin zona_1/zona_2 explícita</strong> se muestran separados. Los valores de zona se leen de la fuente sin asignarlos por suposición. 
 Los modelos predictivos utilizan datos simulados y no están ejecutándose en vivo en este panel.</div>''',unsafe_allow_html=True)
 
 n_high = int((subset["prioridad"]=="Alta").sum())
@@ -342,4 +409,4 @@ with section_gemini:
                            file_name="historial_recomendaciones_epp.csv",mime="text/csv")
         st.caption("Las recomendaciones del cierre diario se notifican por Gmail; el flujo actual no las conserva en una hoja histórica.")
 
-st.markdown('''<div class="footer">Dashboard EPP · Hito 2 · V4. Datos históricos de prueba, pronósticos y clasificaciones simulados; instantánea CSV, no conexión en vivo. Los resultados automáticos requieren revisión humana.</div>''',unsafe_allow_html=True)
+st.markdown('''<div class="footer">Dashboard EPP · Hito 2 · V5. Las inspecciones se leen desde Google Sheets si está conectado; si no, desde el respaldo CSV. Pronósticos y Transformer son resultados de prueba simulados. Los resultados requieren revisión humana.</div>''',unsafe_allow_html=True)
