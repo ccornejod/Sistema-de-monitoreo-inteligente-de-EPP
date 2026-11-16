@@ -1,221 +1,221 @@
-﻿fecha,zona_id,categoria_predicha,fuente_datos
-2026-09-07,zona_1,sin_evento_reportado,SIMULADO
-2026-09-07,zona_1,sin_evento_reportado,SIMULADO
-2026-09-07,zona_2,sin_evento_reportado,SIMULADO
-2026-09-07,zona_2,sin_evento_reportado,SIMULADO
-2026-09-08,zona_1,transporte,SIMULADO
-2026-09-08,zona_1,caidas,SIMULADO
-2026-09-08,zona_2,sin_evento_reportado,SIMULADO
-2026-09-08,zona_2,sin_evento_reportado,SIMULADO
-2026-09-09,zona_1,sin_evento_reportado,SIMULADO
-2026-09-09,zona_1,sin_evento_reportado,SIMULADO
-2026-09-09,zona_2,sin_evento_reportado,SIMULADO
-2026-09-09,zona_2,sin_evento_reportado,SIMULADO
-2026-09-10,zona_1,sin_evento_reportado,SIMULADO
-2026-09-10,zona_1,sin_evento_reportado,SIMULADO
-2026-09-10,zona_2,sin_evento_reportado,SIMULADO
-2026-09-10,zona_2,sin_evento_reportado,SIMULADO
-2026-09-11,zona_1,sin_evento_reportado,SIMULADO
-2026-09-11,zona_1,sin_evento_reportado,SIMULADO
-2026-09-11,zona_2,sin_evento_reportado,SIMULADO
-2026-09-11,zona_2,caidas,SIMULADO
-2026-09-12,zona_1,sin_evento_reportado,SIMULADO
-2026-09-12,zona_1,sin_evento_reportado,SIMULADO
-2026-09-12,zona_2,sin_evento_reportado,SIMULADO
-2026-09-12,zona_2,sin_evento_reportado,SIMULADO
-2026-09-13,zona_1,sin_evento_reportado,SIMULADO
-2026-09-13,zona_1,contacto_objetos,SIMULADO
-2026-09-13,zona_2,sin_evento_reportado,SIMULADO
-2026-09-13,zona_2,transporte,SIMULADO
-2026-09-14,zona_1,sin_evento_reportado,SIMULADO
-2026-09-14,zona_1,sin_evento_reportado,SIMULADO
-2026-09-14,zona_2,sin_evento_reportado,SIMULADO
-2026-09-14,zona_2,sin_evento_reportado,SIMULADO
-2026-09-15,zona_1,sin_evento_reportado,SIMULADO
-2026-09-15,zona_1,sin_evento_reportado,SIMULADO
-2026-09-15,zona_2,exposicion_sustancias,SIMULADO
-2026-09-15,zona_2,sin_evento_reportado,SIMULADO
-2026-09-16,zona_1,sin_evento_reportado,SIMULADO
-2026-09-16,zona_1,sin_evento_reportado,SIMULADO
-2026-09-16,zona_2,sin_evento_reportado,SIMULADO
-2026-09-16,zona_2,sin_evento_reportado,SIMULADO
-2026-09-17,zona_1,sin_evento_reportado,SIMULADO
-2026-09-17,zona_1,sin_evento_reportado,SIMULADO
-2026-09-17,zona_2,sin_evento_reportado,SIMULADO
-2026-09-17,zona_2,sin_evento_reportado,SIMULADO
-2026-09-18,zona_1,sin_evento_reportado,SIMULADO
-2026-09-18,zona_1,sin_evento_reportado,SIMULADO
-2026-09-18,zona_2,sin_evento_reportado,SIMULADO
-2026-09-18,zona_2,contacto_objetos,SIMULADO
-2026-09-19,zona_1,sin_evento_reportado,SIMULADO
-2026-09-19,zona_1,sin_evento_reportado,SIMULADO
-2026-09-19,zona_2,sin_evento_reportado,SIMULADO
-2026-09-19,zona_2,sin_evento_reportado,SIMULADO
-2026-09-20,zona_1,sin_evento_reportado,SIMULADO
-2026-09-20,zona_1,sin_evento_reportado,SIMULADO
-2026-09-20,zona_2,sin_evento_reportado,SIMULADO
-2026-09-20,zona_2,sin_evento_reportado,SIMULADO
-2026-09-21,zona_1,sin_evento_reportado,SIMULADO
-2026-09-21,zona_1,sin_evento_reportado,SIMULADO
-2026-09-21,zona_2,sin_evento_reportado,SIMULADO
-2026-09-21,zona_2,sin_evento_reportado,SIMULADO
-2026-09-22,zona_1,caidas,SIMULADO
-2026-09-22,zona_1,sin_evento_reportado,SIMULADO
-2026-09-22,zona_2,sin_evento_reportado,SIMULADO
-2026-09-22,zona_2,sin_evento_reportado,SIMULADO
-2026-09-23,zona_1,sin_evento_reportado,SIMULADO
-2026-09-23,zona_1,sin_evento_reportado,SIMULADO
-2026-09-23,zona_2,sin_evento_reportado,SIMULADO
-2026-09-23,zona_2,sin_evento_reportado,SIMULADO
-2026-09-24,zona_1,sin_evento_reportado,SIMULADO
-2026-09-24,zona_1,contacto_objetos,SIMULADO
-2026-09-24,zona_2,sin_evento_reportado,SIMULADO
-2026-09-24,zona_2,sin_evento_reportado,SIMULADO
-2026-09-25,zona_1,sin_evento_reportado,SIMULADO
-2026-09-25,zona_1,sin_evento_reportado,SIMULADO
-2026-09-25,zona_2,sin_evento_reportado,SIMULADO
-2026-09-25,zona_2,sin_evento_reportado,SIMULADO
-2026-09-26,zona_1,sin_evento_reportado,SIMULADO
-2026-09-26,zona_1,sin_evento_reportado,SIMULADO
-2026-09-26,zona_2,sin_evento_reportado,SIMULADO
-2026-09-26,zona_2,sin_evento_reportado,SIMULADO
-2026-09-27,zona_1,sin_evento_reportado,SIMULADO
-2026-09-27,zona_1,sin_evento_reportado,SIMULADO
-2026-09-27,zona_2,sin_evento_reportado,SIMULADO
-2026-09-27,zona_2,sin_evento_reportado,SIMULADO
-2026-09-28,zona_1,sin_evento_reportado,SIMULADO
-2026-09-28,zona_1,sin_evento_reportado,SIMULADO
-2026-09-28,zona_2,sin_evento_reportado,SIMULADO
-2026-09-28,zona_2,sin_evento_reportado,SIMULADO
-2026-09-29,zona_1,sin_evento_reportado,SIMULADO
-2026-09-29,zona_1,sin_evento_reportado,SIMULADO
-2026-09-29,zona_2,sin_evento_reportado,SIMULADO
-2026-09-29,zona_2,sin_evento_reportado,SIMULADO
-2026-09-30,zona_1,transporte,SIMULADO
-2026-09-30,zona_1,sin_evento_reportado,SIMULADO
-2026-09-30,zona_2,sin_evento_reportado,SIMULADO
-2026-09-30,zona_2,sin_evento_reportado,SIMULADO
-2026-10-01,zona_1,sin_evento_reportado,SIMULADO
-2026-10-01,zona_1,sin_evento_reportado,SIMULADO
-2026-10-01,zona_2,sin_evento_reportado,SIMULADO
-2026-10-01,zona_2,sin_evento_reportado,SIMULADO
-2026-10-02,zona_1,sin_evento_reportado,SIMULADO
-2026-10-02,zona_1,sin_evento_reportado,SIMULADO
-2026-10-02,zona_2,contacto_objetos,SIMULADO
-2026-10-02,zona_2,sin_evento_reportado,SIMULADO
-2026-10-03,zona_1,sin_evento_reportado,SIMULADO
-2026-10-03,zona_1,transporte,SIMULADO
-2026-10-03,zona_2,sin_evento_reportado,SIMULADO
-2026-10-03,zona_2,sin_evento_reportado,SIMULADO
-2026-10-04,zona_1,sin_evento_reportado,SIMULADO
-2026-10-04,zona_1,sin_evento_reportado,SIMULADO
-2026-10-04,zona_2,sin_evento_reportado,SIMULADO
-2026-10-04,zona_2,sin_evento_reportado,SIMULADO
-2026-10-05,zona_1,sin_evento_reportado,SIMULADO
-2026-10-05,zona_1,sin_evento_reportado,SIMULADO
-2026-10-05,zona_2,sin_evento_reportado,SIMULADO
-2026-10-05,zona_2,sin_evento_reportado,SIMULADO
-2026-10-06,zona_1,sin_evento_reportado,SIMULADO
-2026-10-06,zona_1,sin_evento_reportado,SIMULADO
-2026-10-06,zona_2,sin_evento_reportado,SIMULADO
-2026-10-06,zona_2,sin_evento_reportado,SIMULADO
-2026-10-07,zona_1,transporte,SIMULADO
-2026-10-07,zona_1,contacto_objetos,SIMULADO
-2026-10-07,zona_2,sin_evento_reportado,SIMULADO
-2026-10-07,zona_2,sin_evento_reportado,SIMULADO
-2026-10-08,zona_1,sin_evento_reportado,SIMULADO
-2026-10-08,zona_1,sin_evento_reportado,SIMULADO
-2026-10-08,zona_2,sin_evento_reportado,SIMULADO
-2026-10-08,zona_2,sin_evento_reportado,SIMULADO
-2026-10-09,zona_1,sin_evento_reportado,SIMULADO
-2026-10-09,zona_1,sin_evento_reportado,SIMULADO
-2026-10-09,zona_2,sin_evento_reportado,SIMULADO
-2026-10-09,zona_2,sin_evento_reportado,SIMULADO
-2026-10-10,zona_1,sin_evento_reportado,SIMULADO
-2026-10-10,zona_1,sin_evento_reportado,SIMULADO
-2026-10-10,zona_2,sin_evento_reportado,SIMULADO
-2026-10-10,zona_2,sin_evento_reportado,SIMULADO
-2026-10-11,zona_1,sin_evento_reportado,SIMULADO
-2026-10-11,zona_1,transporte,SIMULADO
-2026-10-11,zona_2,sin_evento_reportado,SIMULADO
-2026-10-11,zona_2,sin_evento_reportado,SIMULADO
-2026-10-12,zona_1,sin_evento_reportado,SIMULADO
-2026-10-12,zona_1,sin_evento_reportado,SIMULADO
-2026-10-12,zona_2,sin_evento_reportado,SIMULADO
-2026-10-12,zona_2,sin_evento_reportado,SIMULADO
-2026-10-13,zona_1,sin_evento_reportado,SIMULADO
-2026-10-13,zona_1,sin_evento_reportado,SIMULADO
-2026-10-13,zona_2,sin_evento_reportado,SIMULADO
-2026-10-13,zona_2,sin_evento_reportado,SIMULADO
-2026-10-14,zona_1,sin_evento_reportado,SIMULADO
-2026-10-14,zona_1,sin_evento_reportado,SIMULADO
-2026-10-14,zona_2,sin_evento_reportado,SIMULADO
-2026-10-14,zona_2,sin_evento_reportado,SIMULADO
-2026-10-15,zona_1,contacto_objetos,SIMULADO
-2026-10-15,zona_1,sin_evento_reportado,SIMULADO
-2026-10-15,zona_2,contacto_objetos,SIMULADO
-2026-10-15,zona_2,sin_evento_reportado,SIMULADO
-2026-10-16,zona_1,sin_evento_reportado,SIMULADO
-2026-10-16,zona_1,sin_evento_reportado,SIMULADO
-2026-10-16,zona_2,sin_evento_reportado,SIMULADO
-2026-10-16,zona_2,sin_evento_reportado,SIMULADO
-2026-10-17,zona_1,sin_evento_reportado,SIMULADO
-2026-10-17,zona_1,sin_evento_reportado,SIMULADO
-2026-10-17,zona_2,sin_evento_reportado,SIMULADO
-2026-10-17,zona_2,sin_evento_reportado,SIMULADO
-2026-10-18,zona_1,sin_evento_reportado,SIMULADO
-2026-10-18,zona_1,sin_evento_reportado,SIMULADO
-2026-10-18,zona_2,sin_evento_reportado,SIMULADO
-2026-10-18,zona_2,sin_evento_reportado,SIMULADO
-2026-10-19,zona_1,sin_evento_reportado,SIMULADO
-2026-10-19,zona_1,sin_evento_reportado,SIMULADO
-2026-10-19,zona_2,sin_evento_reportado,SIMULADO
-2026-10-19,zona_2,sin_evento_reportado,SIMULADO
-2026-10-20,zona_1,sin_evento_reportado,SIMULADO
-2026-10-20,zona_1,sin_evento_reportado,SIMULADO
-2026-10-20,zona_2,sin_evento_reportado,SIMULADO
-2026-10-20,zona_2,exposicion_sustancias,SIMULADO
-2026-10-21,zona_1,sin_evento_reportado,SIMULADO
-2026-10-21,zona_1,sin_evento_reportado,SIMULADO
-2026-10-21,zona_2,sin_evento_reportado,SIMULADO
-2026-10-21,zona_2,exposicion_sustancias,SIMULADO
-2026-10-22,zona_1,sin_evento_reportado,SIMULADO
-2026-10-22,zona_1,sin_evento_reportado,SIMULADO
-2026-10-22,zona_2,sin_evento_reportado,SIMULADO
-2026-10-22,zona_2,sin_evento_reportado,SIMULADO
-2026-10-23,zona_1,sin_evento_reportado,SIMULADO
-2026-10-23,zona_1,sin_evento_reportado,SIMULADO
-2026-10-23,zona_2,sin_evento_reportado,SIMULADO
-2026-10-23,zona_2,sin_evento_reportado,SIMULADO
-2026-10-24,zona_1,sin_evento_reportado,SIMULADO
-2026-10-24,zona_1,sin_evento_reportado,SIMULADO
-2026-10-24,zona_2,sin_evento_reportado,SIMULADO
-2026-10-24,zona_2,contacto_objetos,SIMULADO
-2026-10-25,zona_1,sin_evento_reportado,SIMULADO
-2026-10-25,zona_1,sin_evento_reportado,SIMULADO
-2026-10-25,zona_2,contacto_objetos,SIMULADO
-2026-10-25,zona_2,sin_evento_reportado,SIMULADO
-2026-10-26,zona_1,sin_evento_reportado,SIMULADO
-2026-10-26,zona_1,sin_evento_reportado,SIMULADO
-2026-10-26,zona_2,sin_evento_reportado,SIMULADO
-2026-10-26,zona_2,sin_evento_reportado,SIMULADO
-2026-10-27,zona_1,sin_evento_reportado,SIMULADO
-2026-10-27,zona_1,sin_evento_reportado,SIMULADO
-2026-10-27,zona_2,sin_evento_reportado,SIMULADO
-2026-10-27,zona_2,sin_evento_reportado,SIMULADO
-2026-10-28,zona_1,sin_evento_reportado,SIMULADO
-2026-10-28,zona_1,sin_evento_reportado,SIMULADO
-2026-10-28,zona_2,sin_evento_reportado,SIMULADO
-2026-10-28,zona_2,sin_evento_reportado,SIMULADO
-2026-10-29,zona_1,sin_evento_reportado,SIMULADO
-2026-10-29,zona_1,sin_evento_reportado,SIMULADO
-2026-10-29,zona_2,sin_evento_reportado,SIMULADO
-2026-10-29,zona_2,caidas,SIMULADO
-2026-10-30,zona_1,sin_evento_reportado,SIMULADO
-2026-10-30,zona_1,sin_evento_reportado,SIMULADO
-2026-10-30,zona_2,sin_evento_reportado,SIMULADO
-2026-10-30,zona_2,sin_evento_reportado,SIMULADO
-2026-10-31,zona_1,sin_evento_reportado,SIMULADO
-2026-10-31,zona_1,sin_evento_reportado,SIMULADO
-2026-10-31,zona_2,sin_evento_reportado,SIMULADO
-2026-10-31,zona_2,sin_evento_reportado,SIMULADO
+﻿fecha,zona_id,texto,categoria_evento_simulado,categoria_predicha,confianza_modelo,fuente_datos
+2026-09-07,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8334,SIMULADO
+2026-09-07,zona_1,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8796,SIMULADO
+2026-09-07,zona_2,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8738,SIMULADO
+2026-09-07,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7937,SIMULADO
+2026-09-08,zona_1,Bitácora operacional: Un vehículo retrocedió junto a un acceso usado por el personal. La observación corresponde a una actividad del turno. La información quedó para revisión posterior.,transporte,transporte,0.8422,SIMULADO
+2026-09-08,zona_1,Bitácora operacional: La irregularidad del terreno produjo inestabilidad al avanzar. La observación corresponde a una actividad del turno. La situación quedó documentada.,caidas,caidas,0.8978,SIMULADO
+2026-09-08,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8601,SIMULADO
+2026-09-08,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.728,SIMULADO
+2026-09-09,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8713,SIMULADO
+2026-09-09,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8597,SIMULADO
+2026-09-09,zona_2,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7036,SIMULADO
+2026-09-09,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8156,SIMULADO
+2026-09-10,zona_1,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8289,SIMULADO
+2026-09-10,zona_1,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8197,SIMULADO
+2026-09-10,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.904,SIMULADO
+2026-09-10,zona_2,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7863,SIMULADO
+2026-09-11,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8278,SIMULADO
+2026-09-11,zona_1,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8967,SIMULADO
+2026-09-11,zona_2,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7734,SIMULADO
+2026-09-11,zona_2,En el recorrido: Una persona recuperó el equilibrio con dificultad al cruzar el sector. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,caidas,caidas,0.8596,SIMULADO
+2026-09-12,zona_1,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8554,SIMULADO
+2026-09-12,zona_1,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.896,SIMULADO
+2026-09-12,zona_2,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8854,SIMULADO
+2026-09-12,zona_2,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7985,SIMULADO
+2026-09-13,zona_1,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8142,SIMULADO
+2026-09-13,zona_1,Bitácora operacional: Un paquete cambió inesperadamente de posición junto al trabajador. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,contacto_objetos,contacto_objetos,0.7,SIMULADO
+2026-09-13,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8227,SIMULADO
+2026-09-13,zona_2,Informe preventivo: Una estructura móvil se aproximó al espacio ocupado por el personal. Se incorporó la situación al registro del sector. La situación quedó documentada.,contacto_objetos,transporte,0.4638,SIMULADO
+2026-09-14,zona_1,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8105,SIMULADO
+2026-09-14,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.77,SIMULADO
+2026-09-14,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8073,SIMULADO
+2026-09-14,zona_2,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8678,SIMULADO
+2026-09-15,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8697,SIMULADO
+2026-09-15,zona_1,Nota del supervisor: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8029,SIMULADO
+2026-09-15,zona_2,En el recorrido: La transferencia de líquido dejó gotas dispersas en el entorno. Se dejó la información disponible para su seguimiento. La situación quedó documentada.,exposicion_sustancias,exposicion_sustancias,0.5131,SIMULADO
+2026-09-15,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8142,SIMULADO
+2026-09-16,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8234,SIMULADO
+2026-09-16,zona_1,Nota del supervisor: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8135,SIMULADO
+2026-09-16,zona_2,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8757,SIMULADO
+2026-09-16,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.832,SIMULADO
+2026-09-17,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8496,SIMULADO
+2026-09-17,zona_1,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8412,SIMULADO
+2026-09-17,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7701,SIMULADO
+2026-09-17,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8564,SIMULADO
+2026-09-18,zona_1,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8559,SIMULADO
+2026-09-18,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8147,SIMULADO
+2026-09-18,zona_2,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8572,SIMULADO
+2026-09-18,zona_2,Bitácora operacional: Un paquete cambió inesperadamente de posición junto al trabajador. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,contacto_objetos,contacto_objetos,0.7045,SIMULADO
+2026-09-19,zona_1,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.793,SIMULADO
+2026-09-19,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8167,SIMULADO
+2026-09-19,zona_2,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8936,SIMULADO
+2026-09-19,zona_2,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8073,SIMULADO
+2026-09-20,zona_1,Nota del supervisor: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8422,SIMULADO
+2026-09-20,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.819,SIMULADO
+2026-09-20,zona_2,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7538,SIMULADO
+2026-09-20,zona_2,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8461,SIMULADO
+2026-09-21,zona_1,Bitácora operacional: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.7425,SIMULADO
+2026-09-21,zona_1,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8804,SIMULADO
+2026-09-21,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8399,SIMULADO
+2026-09-21,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7712,SIMULADO
+2026-09-22,zona_1,En el recorrido: Un trabajador perdió apoyo al cambiar de nivel entre dos superficies. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,caidas,caidas,0.8156,SIMULADO
+2026-09-22,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8072,SIMULADO
+2026-09-22,zona_2,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.841,SIMULADO
+2026-09-22,zona_2,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7384,SIMULADO
+2026-09-23,zona_1,Bitácora operacional: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7095,SIMULADO
+2026-09-23,zona_1,Registro del turno: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8246,SIMULADO
+2026-09-23,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8734,SIMULADO
+2026-09-23,zona_2,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8611,SIMULADO
+2026-09-24,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8121,SIMULADO
+2026-09-24,zona_1,Informe preventivo: Un paquete cambió inesperadamente de posición junto al trabajador. Se incorporó la situación al registro del sector. El supervisor registró el antecedente.,contacto_objetos,contacto_objetos,0.5471,SIMULADO
+2026-09-24,zona_2,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7906,SIMULADO
+2026-09-24,zona_2,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8809,SIMULADO
+2026-09-25,zona_1,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8171,SIMULADO
+2026-09-25,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8006,SIMULADO
+2026-09-25,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7712,SIMULADO
+2026-09-25,zona_2,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8479,SIMULADO
+2026-09-26,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8115,SIMULADO
+2026-09-26,zona_1,En el recorrido: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.844,SIMULADO
+2026-09-26,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8372,SIMULADO
+2026-09-26,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7457,SIMULADO
+2026-09-27,zona_1,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8602,SIMULADO
+2026-09-27,zona_1,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8973,SIMULADO
+2026-09-27,zona_2,En el recorrido: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8271,SIMULADO
+2026-09-27,zona_2,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8251,SIMULADO
+2026-09-28,zona_1,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8594,SIMULADO
+2026-09-28,zona_1,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8854,SIMULADO
+2026-09-28,zona_2,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7669,SIMULADO
+2026-09-28,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8513,SIMULADO
+2026-09-29,zona_1,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8414,SIMULADO
+2026-09-29,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8113,SIMULADO
+2026-09-29,zona_2,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8331,SIMULADO
+2026-09-29,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.6987,SIMULADO
+2026-09-30,zona_1,Registro del turno: Una estructura móvil se aproximó al espacio ocupado por el personal. La anotación corresponde a una inspección preventiva. El supervisor registró el antecedente.,contacto_objetos,transporte,0.6949,SIMULADO
+2026-09-30,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8697,SIMULADO
+2026-09-30,zona_2,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7939,SIMULADO
+2026-09-30,zona_2,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8559,SIMULADO
+2026-10-01,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8309,SIMULADO
+2026-10-01,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8548,SIMULADO
+2026-10-01,zona_2,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7881,SIMULADO
+2026-10-01,zona_2,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7963,SIMULADO
+2026-10-02,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8276,SIMULADO
+2026-10-02,zona_1,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8391,SIMULADO
+2026-10-02,zona_2,En el recorrido: Un paquete cambió inesperadamente de posición junto al trabajador. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,contacto_objetos,contacto_objetos,0.4138,SIMULADO
+2026-10-02,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8119,SIMULADO
+2026-10-03,zona_1,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8554,SIMULADO
+2026-10-03,zona_1,Observación del sector: Un vehículo retrocedió junto a un acceso usado por el personal. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,transporte,transporte,0.9472,SIMULADO
+2026-10-03,zona_2,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8655,SIMULADO
+2026-10-03,zona_2,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7645,SIMULADO
+2026-10-04,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8079,SIMULADO
+2026-10-04,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8555,SIMULADO
+2026-10-04,zona_2,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8459,SIMULADO
+2026-10-04,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8313,SIMULADO
+2026-10-05,zona_1,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8583,SIMULADO
+2026-10-05,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7875,SIMULADO
+2026-10-05,zona_2,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8344,SIMULADO
+2026-10-05,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.9102,SIMULADO
+2026-10-06,zona_1,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8832,SIMULADO
+2026-10-06,zona_1,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8759,SIMULADO
+2026-10-06,zona_2,Se dejó constancia: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8703,SIMULADO
+2026-10-06,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8278,SIMULADO
+2026-10-07,zona_1,Registro del turno: Una estructura móvil se aproximó al espacio ocupado por el personal. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,contacto_objetos,transporte,0.5394,SIMULADO
+2026-10-07,zona_1,Observación del sector: Una estructura móvil se aproximó al espacio ocupado por el personal. Se dejó la información disponible para su seguimiento. La situación quedó documentada.,contacto_objetos,contacto_objetos,0.5936,SIMULADO
+2026-10-07,zona_2,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7418,SIMULADO
+2026-10-07,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7169,SIMULADO
+2026-10-08,zona_1,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8807,SIMULADO
+2026-10-08,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8121,SIMULADO
+2026-10-08,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7368,SIMULADO
+2026-10-08,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.7843,SIMULADO
+2026-10-09,zona_1,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8029,SIMULADO
+2026-10-09,zona_1,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7592,SIMULADO
+2026-10-09,zona_2,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7613,SIMULADO
+2026-10-09,zona_2,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7036,SIMULADO
+2026-10-10,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8096,SIMULADO
+2026-10-10,zona_1,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8462,SIMULADO
+2026-10-10,zona_2,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7984,SIMULADO
+2026-10-10,zona_2,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8662,SIMULADO
+2026-10-11,zona_1,En el recorrido: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7796,SIMULADO
+2026-10-11,zona_1,Nota del supervisor: Un vehículo retrocedió junto a un acceso usado por el personal. La observación corresponde a una actividad del turno. La situación quedó documentada.,transporte,transporte,0.9099,SIMULADO
+2026-10-11,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7169,SIMULADO
+2026-10-11,zona_2,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7645,SIMULADO
+2026-10-12,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.699,SIMULADO
+2026-10-12,zona_1,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8358,SIMULADO
+2026-10-12,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.6875,SIMULADO
+2026-10-12,zona_2,Bitácora operacional: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.6712,SIMULADO
+2026-10-13,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.721,SIMULADO
+2026-10-13,zona_1,Registro del turno: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8751,SIMULADO
+2026-10-13,zona_2,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.852,SIMULADO
+2026-10-13,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.857,SIMULADO
+2026-10-14,zona_1,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8067,SIMULADO
+2026-10-14,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8597,SIMULADO
+2026-10-14,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7793,SIMULADO
+2026-10-14,zona_2,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7522,SIMULADO
+2026-10-15,zona_1,Se dejó constancia: Un paquete cambió inesperadamente de posición junto al trabajador. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,contacto_objetos,contacto_objetos,0.8066,SIMULADO
+2026-10-15,zona_1,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7493,SIMULADO
+2026-10-15,zona_2,En el recorrido: Al manipular un objeto se produjo un roce inesperado en el puesto. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,contacto_objetos,contacto_objetos,0.4358,SIMULADO
+2026-10-15,zona_2,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8325,SIMULADO
+2026-10-16,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7906,SIMULADO
+2026-10-16,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7589,SIMULADO
+2026-10-16,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8067,SIMULADO
+2026-10-16,zona_2,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8246,SIMULADO
+2026-10-17,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7506,SIMULADO
+2026-10-17,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8656,SIMULADO
+2026-10-17,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.9102,SIMULADO
+2026-10-17,zona_2,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.9001,SIMULADO
+2026-10-18,zona_1,En el recorrido: El equipo registró actividad habitual sin incidentes asociados. El registro quedó asociado a la inspección planificada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8021,SIMULADO
+2026-10-18,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8234,SIMULADO
+2026-10-18,zona_2,Registro del turno: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8183,SIMULADO
+2026-10-18,zona_2,Informe preventivo: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.7493,SIMULADO
+2026-10-19,zona_1,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8351,SIMULADO
+2026-10-19,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7696,SIMULADO
+2026-10-19,zona_2,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7805,SIMULADO
+2026-10-19,zona_2,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7414,SIMULADO
+2026-10-20,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8179,SIMULADO
+2026-10-20,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8652,SIMULADO
+2026-10-20,zona_2,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8571,SIMULADO
+2026-10-20,zona_2,Bitácora operacional: Se comunicó presencia de material suspendido durante el procesamiento. Esta descripción fue registrada durante la jornada. Se incorporó al historial preventivo.,exposicion_sustancias,exposicion_sustancias,0.523,SIMULADO
+2026-10-21,zona_1,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8296,SIMULADO
+2026-10-21,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8516,SIMULADO
+2026-10-21,zona_2,Registro del turno: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8743,SIMULADO
+2026-10-21,zona_2,Bitácora operacional: La transferencia de líquido dejó gotas dispersas en el entorno. Se incorporó la situación al registro del sector. La situación quedó documentada.,exposicion_sustancias,exposicion_sustancias,0.7477,SIMULADO
+2026-10-22,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7674,SIMULADO
+2026-10-22,zona_1,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. Esta descripción fue registrada durante la jornada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.6976,SIMULADO
+2026-10-22,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8737,SIMULADO
+2026-10-22,zona_2,Registro del turno: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8334,SIMULADO
+2026-10-23,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8227,SIMULADO
+2026-10-23,zona_1,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8399,SIMULADO
+2026-10-23,zona_2,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. La anotación corresponde a una inspección preventiva. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.843,SIMULADO
+2026-10-23,zona_2,Informe preventivo: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8678,SIMULADO
+2026-10-24,zona_1,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8496,SIMULADO
+2026-10-24,zona_1,Informe preventivo: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8936,SIMULADO
+2026-10-24,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8787,SIMULADO
+2026-10-24,zona_2,Se dejó constancia: Un paquete cambió inesperadamente de posición junto al trabajador. Esta descripción fue registrada durante la jornada. Se dejó antecedente en la bitácora.,contacto_objetos,contacto_objetos,0.8026,SIMULADO
+2026-10-25,zona_1,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. Se dejó la información disponible para su seguimiento. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8462,SIMULADO
+2026-10-25,zona_1,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. La observación corresponde a una actividad del turno. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.7575,SIMULADO
+2026-10-25,zona_2,Bitácora operacional: Al manipular un objeto se produjo un roce inesperado en el puesto. Se incorporó la situación al registro del sector. El supervisor registró el antecedente.,contacto_objetos,contacto_objetos,0.5043,SIMULADO
+2026-10-25,zona_2,En el recorrido: La bitácora del turno quedó sin eventos nuevos de seguridad. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7203,SIMULADO
+2026-10-26,zona_1,Durante la supervisión: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8586,SIMULADO
+2026-10-26,zona_1,Observación del sector: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.7506,SIMULADO
+2026-10-26,zona_2,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8958,SIMULADO
+2026-10-26,zona_2,Se dejó constancia: La jornada se desarrolló sin situaciones de seguridad notificadas. La observación corresponde a una actividad del turno. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8829,SIMULADO
+2026-10-27,zona_1,Registro del turno: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8344,SIMULADO
+2026-10-27,zona_1,Se dejó constancia: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. La situación quedó documentada.,sin_evento_reportado,sin_evento_reportado,0.8704,SIMULADO
+2026-10-27,zona_2,Durante la supervisión: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8944,SIMULADO
+2026-10-27,zona_2,Bitácora operacional: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8018,SIMULADO
+2026-10-28,zona_1,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. Se dejó la información disponible para su seguimiento. El supervisor registró el antecedente.,sin_evento_reportado,sin_evento_reportado,0.8662,SIMULADO
+2026-10-28,zona_1,Bitácora operacional: El equipo registró actividad habitual sin incidentes asociados. La observación corresponde a una actividad del turno. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.7512,SIMULADO
+2026-10-28,zona_2,Observación del sector: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. Se dejó antecedente en la bitácora.,sin_evento_reportado,sin_evento_reportado,0.8439,SIMULADO
+2026-10-28,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.7771,SIMULADO
+2026-10-29,zona_1,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8181,SIMULADO
+2026-10-29,zona_1,En el recorrido: La jornada se desarrolló sin situaciones de seguridad notificadas. El registro quedó asociado a la inspección planificada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8487,SIMULADO
+2026-10-29,zona_2,Observación del sector: La bitácora del turno quedó sin eventos nuevos de seguridad. El registro quedó asociado a la inspección planificada. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.8167,SIMULADO
+2026-10-29,zona_2,Registro del turno: La irregularidad del terreno produjo inestabilidad al avanzar. El registro quedó asociado a la inspección planificada. El supervisor registró el antecedente.,caidas,caidas,0.8406,SIMULADO
+2026-10-30,zona_1,En el recorrido: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. Se incorporó al historial preventivo.,sin_evento_reportado,sin_evento_reportado,0.713,SIMULADO
+2026-10-30,zona_1,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.8087,SIMULADO
+2026-10-30,zona_2,Bitácora operacional: La jornada se desarrolló sin situaciones de seguridad notificadas. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8268,SIMULADO
+2026-10-30,zona_2,Registro del turno: El equipo registró actividad habitual sin incidentes asociados. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.7257,SIMULADO
+2026-10-31,zona_1,Nota del supervisor: La bitácora del turno quedó sin eventos nuevos de seguridad. La anotación corresponde a una inspección preventiva. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8306,SIMULADO
+2026-10-31,zona_1,Durante la supervisión: La bitácora del turno quedó sin eventos nuevos de seguridad. Esta descripción fue registrada durante la jornada. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.9001,SIMULADO
+2026-10-31,zona_2,Bitácora operacional: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. El reporte quedó archivado en el control.,sin_evento_reportado,sin_evento_reportado,0.7707,SIMULADO
+2026-10-31,zona_2,Nota del supervisor: El equipo registró actividad habitual sin incidentes asociados. Se incorporó la situación al registro del sector. La información quedó para revisión posterior.,sin_evento_reportado,sin_evento_reportado,0.8355,SIMULADO
