@@ -369,7 +369,7 @@ with section_forecasts:
             for col,(_,r) in zip([c1,c2],snap.iterrows()):
                 with col:
                     # Mostrar decimales permite apreciar cambios menores a una persona.
-                    st.markdown(kpi(str(r['zona_etiqueta']),f"≈ {r['trabajadores_revision_estimados']:.2f}",
+                    st.markdown(kpi(str(r['zona_etiqueta']),f" {r['trabajadores_revision_estimados']:.2f}",
                                      f"Estimación para {chosen_day.strftime('%d/%m/%Y')} · {r['modelo']}","info"),
                                      unsafe_allow_html=True)
         st.markdown('<div class="notice"><strong>Decisión de gestión:</strong> usar estas estimaciones como referencia para planificar rondas, personal y tiempos de verificación. LSTM corresponde a la Zona 1 y Holt-Winters a la Zona 2. No es una comparación válida del riesgo relativo entre ambas zonas.</div>',unsafe_allow_html=True)
