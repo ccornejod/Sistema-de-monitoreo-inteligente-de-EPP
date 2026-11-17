@@ -244,12 +244,21 @@ if not i.empty:
 else:
     date_a = date_b = HOY_CHILE
 
-zone_options = ["Zona 1 · casco y chaleco", "Zona 2 · calzado, guantes y lentes", "Histórico sin zona homologada"]
-selected_zone = st.sidebar.multiselect("Zona",zone_options,default=zone_options)
-selected_priority = st.sidebar.multiselect("Prioridad",["Alta","Media","Baja"],default=["Alta","Media","Baja"])
+# Las zonas del proyecto son únicamente Zona 1 y Zona 2.
+# Los datos antiguos no se eliminan: pueden incluirse opcionalmente en la vista.
+zone_options = ["Zona 1 · casco y chaleco", "Zona 2 · calzado, guantes y lentes"]
+selected_zone = st.sidebar.multiselect("Zona", zone_options, default=zone_options)
+incluir_historicos = st.sidebar.checkbox(
+    "Incluir registros antiguos sin zona identificada", value=False,
+    help="Conserva los registros de prueba antiguos, pero no los asigna a Zona 1 ni Zona 2."
+)
+selected_priority = st.sidebar.multiselect("Prioridad", ["Alta", "Media", "Baja"], default=["Alta", "Media", "Baja"])
+mascara_zona = i["zona_etiqueta"].isin(selected_zone)
+if incluir_historicos:
+    mascara_zona = mascara_zona | i["zona_id"].eq("sin_homologar")
 subset = i[(i["supervisor"].isin(selected_people)) &
-           (i["fecha"].dt.date>=date_a) & (i["fecha"].dt.date<=date_b) &
-           (i["zona_etiqueta"].isin(selected_zone)) &
+           (i["fecha"].dt.date >= date_a) & (i["fecha"].dt.date <= date_b) &
+           mascara_zona &
            (i["prioridad"].isin(selected_priority))].copy()
 
 st.sidebar.divider()
@@ -348,15 +357,20 @@ with section_forecasts:
         chosen_day=st.select_slider("Fecha de planificación",options=days,
                                     value=default_day,
                                     format_func=lambda d:d.strftime("%d/%m/%Y"))
+        st.caption(
+            f"Fecha seleccionada: {chosen_day.strftime('%d/%m/%Y')} · "
+            f"Horizonte disponible: {days[0].strftime('%d/%m/%Y')} al {days[-1].strftime('%d/%m/%Y')}."
+        )
         if chosen_day != MANANA_CHILE:
-            st.caption(f"Se muestra el {chosen_day.strftime('%d/%m/%Y')}; no es el pronóstico de mañana ({MANANA_CHILE.strftime('%d/%m/%Y')}).")
+            st.caption(f"Esta fecha no corresponde a mañana ({MANANA_CHILE.strftime('%d/%m/%Y')}).")
         snap=p[p["fecha_pronostico"].dt.date==chosen_day].sort_values("zona_id")
         if len(snap):
             c1,c2=st.columns(2,gap="medium")
             for col,(_,r) in zip([c1,c2],snap.iterrows()):
                 with col:
-                    st.markdown(kpi(str(r['zona_etiqueta']),f"≈ {round(r['trabajadores_revision_estimados'])}",
-                                     f"Trabajadores que podrían requerir verificación · {r['modelo']}","info"),
+                    # Mostrar decimales permite apreciar cambios menores a una persona.
+                    st.markdown(kpi(str(r['zona_etiqueta']),f"≈ {r['trabajadores_revision_estimados']:.2f}",
+                                     f"Estimación para {chosen_day.strftime('%d/%m/%Y')} · {r['modelo']}","info"),
                                      unsafe_allow_html=True)
         st.markdown('<div class="notice"><strong>Decisión de gestión:</strong> usar estas estimaciones como referencia para planificar rondas, personal y tiempos de verificación. LSTM corresponde a la Zona 1 y Holt-Winters a la Zona 2. No es una comparación válida del riesgo relativo entre ambas zonas.</div>',unsafe_allow_html=True)
         fig=px.line(p,x="fecha_pronostico",y="trabajadores_revision_estimados",
@@ -364,6 +378,16 @@ with section_forecasts:
                     color_discrete_map={zone_label('zona_1'):CYAN,zone_label('zona_2'):BLUE},
                     labels={"fecha_pronostico":"Fecha","trabajadores_revision_estimados":"Trabajadores estimados","zona_etiqueta":"Zona"})
         fig.update_traces(line=dict(width=3),marker=dict(size=6))
+        # Señalar sobre el gráfico completo la fecha movida en la barra.
+        if not snap.empty:
+            fig.add_scatter(
+                x=snap["fecha_pronostico"],
+                y=snap["trabajadores_revision_estimados"],
+                mode="markers",
+                marker=dict(size=15, symbol="diamond", color=AMBER),
+                name="Fecha seleccionada",
+                hovertemplate="%{x|%d/%m/%Y}: %{y:.2f} trabajadores<extra></extra>"
+            )
         st.plotly_chart(figure_style(fig,400),use_container_width=True)
         st.caption("Pronósticos sobre datos simulados. No se deben confundir con trabajadores observados, incumplimientos o resultados individuales de un supervisor.")
 
